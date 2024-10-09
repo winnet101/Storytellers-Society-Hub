@@ -4,6 +4,7 @@
   import { hash } from "./stores";
   import NotFound from "./lib/NotFound.svelte";
   import Home from "./lib/Home.svelte";
+  import Board from "./lib/Board.svelte";
 
   onMount(() => {
     console.log("Page mounted!")
@@ -24,7 +25,9 @@
 <Header />
 
 {#if $hash == ""}
-<Home />
+  <Home />
+{:else if $hash == "#board"}
+  <Board />
 {:else}
-<NotFound />
+  <NotFound />
 {/if}

@@ -4,15 +4,8 @@
 </script>
 
 <main>
-  <div class="overlay-container">
-    <div class="img-container">
-      <img src={scifi_back} alt="Sci-fi background." width={1000}/>
-    </div>
-    <div class="overlay">
-      For the 
-        <div class="fancy">Sci-fi</div>
-      authors.
-    </div>
+  <div>
+    
   </div>
   
 </main>

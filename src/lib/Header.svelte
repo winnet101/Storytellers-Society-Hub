@@ -1,8 +1,6 @@
 <menu>
   <a href="./#">Home</a>
-  <a href="./#about-us">About Us</a>
-  <a href="./#resources">Resources</a>
-  <a href="./#contact-us">Contact us!</a>
+  <a href="./#board">Board</a>
 </menu>
 
 <style>
@@ -17,9 +15,8 @@
   a {
     color: inherit;
     text-decoration: none;
-    width: max-content;
-    padding: 10px;
-    width: 25%;
+    /* width: max-content;*/
+    padding: 10px; 
 
     display: grid;
     justify-items: center;
